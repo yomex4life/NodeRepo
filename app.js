@@ -51,7 +51,7 @@ app.get('/', function(req, res){
 
 //connect to DB
 mongoose.connect(process.env.DB_CONNECTION,{useNewUrlParser: true}, function(){
-    console.log('connected');
+    console.log('connected to the database');
 });
 
 //listen
